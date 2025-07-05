@@ -1,25 +1,26 @@
 /* style */
 
 .containertopsection {
-    background-color: #1F2937;
-    font-family: 'Times New Roman', Times, serif;
+background-color: #1F2937;
+font-family: 'Times New Roman', Times, serif;
+padding-bottom: 50px;
 }
 
 .headerlogo {
-    font-size: 24px;
-    color: #f9faf8;
+font-size: 24px;
+color: #f9faf8;
 }
 
 .header {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
+font-size: 48px;
+color: #f9faf8;
+font-weight: 900;
 }
 
 .text {
-    font-size: 18px;
-    color: #f9faf8;
-    width: 500px;
+font-size: 18px;
+color: #f9faf8;
+width: 500px;
 }
 
 .toplink {
@@ -30,63 +31,67 @@ color: #f9faf8;
 
 /* top strap */
 .containerlink {
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+display: flex;
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+gap: 20px;
 }
- 
+
 .containtertopstrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    justify-content: space-around;
+display: flex;
+align-items: center;
+justify-content: space-between;
+justify-content: space-around;
 }
 
 /* content */
 
 .containertwo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
 }
 
 .sing-in {
-  border: none;
-  border-radius: 8px;
-  background: rebeccapurple;
-  color: white;
-  padding: 8px 16px;
+border: none;
+border-radius: 8px;
+background: rebeccapurple;
+color: white;
+padding: 8px 16px;
+}
+
+.devimg {
+border-radius: 25px;
 }
 
 /* section two */
 
 .stwotitle
 {
-   font-size: 36px;
-   font-weight: 900;
-   color: #1F2937;
-   text-align: center; 
-   margin-bottom: 56px;
+font-size: 36px;
+font-weight: 900;
+color: #1F2937;
+text-align: center; 
+margin-bottom: 56px;
 }
 
 .stwocontainer {
-    display: flex;
-    justify-content: center;
-    gap: 120px;
+display: flex;
+justify-content: center;
+gap: 120px;
 }
 
 .setone, .settwo, .setthree, .setfour {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .texttwo {
-    width: 100px;
-    text-align: center;
+width: 100px;
+text-align: center;
 }
 
 .stwoimg {
@@ -98,62 +103,66 @@ border-radius: 8px;
 /* section three */
 
 .containersthree {
- background-color: #e5e7eb;  
+ background-color: #e5e7eb; 
  display: flex;
  flex-direction: column;
+ justify-content: center;
  align-items: center;
+ padding: 50px 100px;
  }
-
+ 
 .quote {
-    font-size: 36px;
-    font: light italic;
-    color: #1F2937;
-    width: 1000px;
-    margin-bottom: 0;
+font-size: 36px;
+font: light italic;
+color: #1F2937;
+margin-bottom: 0;
+margin: auto;
+width: 70%;
 }
 
-.signing {
+.sthreesign {
     font-size: 24px;
-    list-style-type: "- ";
+    width: 70%;
+    text-align: end;
 }
 
 /* section four */
 
 .sfourtitle {
-    margin: 0px;
-    padding: 0px;
-    font-size: 24px;
-    font-weight: 900;
-    color: #f9faf8;
+margin: 0px;
+padding: 0px;
+font-size: 24px;
+font-weight: 900;
+color: #f9faf8;
 }
 
 .sfourinvite{
-    margin: 0px;
-    padding: 0px;
-    color: #f9faf8;
+margin: 0px;
+padding: 0px;
+color: #f9faf8;
 }
 
 .csfourtext {
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .containersfour {
-    display: flex;
-    background-color: rgb(18, 129, 173);
-    border-radius: 8px;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+display: flex;
+background-color: rgb(18, 129, 173);
+border-radius: 8px;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+margin-left: 350px;
+margin-right: 350px;
+margin-top: 25px;
+margin-bottom: 25px;
 }
 
 .sing-up {
-  border: solid white;
-  border-radius: 8px;
-  color: white;
-  padding: 8px 16px;
+border: solid white;
+border-radius: 8px;
+color: white;
+padding: 8px 16px;
 }
