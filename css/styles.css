@@ -29,6 +29,7 @@ font-size: 18px;
 color: #f9faf8;
 }
 
+
 /* top strap */
 .containerlink {
 display: flex;
@@ -117,12 +118,12 @@ font: light italic;
 color: #1F2937;
 margin-bottom: 0;
 margin: auto;
-width: 70%;
+width: 50%;
 }
 
 .sthreesign {
     font-size: 24px;
-    width: 70%;
+    width: 50%;
     text-align: end;
 }
 
@@ -154,8 +155,8 @@ border-radius: 8px;
 align-items: center;
 justify-content: space-between;
 padding: 20px;
-margin-left: 350px;
-margin-right: 350px;
+margin-left: 25%;
+margin-right: 25%;
 margin-top: 25px;
 margin-bottom: 25px;
 }
